@@ -1,0 +1,29 @@
+{
+  "name": "movie-api",
+  "version": "1.0.0",
+  "description": "## Instructions",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --format codeframe .", 
+    "lint:fix": "eslint --format codeframe .",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annie-i0/movie-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annie-i0/movie-api/issues"
+  },
+  "homepage": "https://github.com/annie-i0/movie-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "nodemon": "^2.0.7"
+  }
+}
