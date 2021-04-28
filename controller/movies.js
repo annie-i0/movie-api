@@ -5,10 +5,10 @@ const getAllMovies = (request, response) => {
 }
 
 const getMoviesByTitleOrDirector = (request, response) => {
-    const { searchTitle } = request.params
-    const movieTitle = movies.filter((movie) => movie.title.toLowerCase().includes(searchTitle) || 
-    movie.directors.toString().toLowerCase().includes(searchTitle))
-    return response.send(movieTitle)
+    const { searchTitleOrDirector } = request.params
+    const movieTitleOrDirector = movies.filter((movie) => movie.title.toLowerCase().includes(searchTitleOrDirector) || 
+    movie.directors.toString().toLowerCase().includes(searchTitleOrDirector))
+    return response.send(movieTitleOrDirector)
 
 }
 
